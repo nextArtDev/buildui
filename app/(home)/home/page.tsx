@@ -6,7 +6,7 @@ function page({}: Props) {
   return (
     <div className="flex text-gray-100 h-screen">
       <div className="bg-gray-900 p-3 space-y-2 container-snap overflow-y-auto scrollbar-hide ">
-        <div className="flex items-center justify-center w-12 h-12 text-gray-800 bg-gray-700 rounded-full hover:bg-[#5865F2] hover:text-white hover:rounded-2xl transition cursor-pointer duration-300 ">
+        <div className="flex items-center justify-center w-12 h-12 text-gray-800 bg-gray-700 rounded-3xl hover:bg-[#5865F2] hover:text-white hover:rounded-2xl transition-all cursor-pointer duration-300 ">
           LOGO
         </div>
         {/* {[...Array(40)].map((_, i) => (
